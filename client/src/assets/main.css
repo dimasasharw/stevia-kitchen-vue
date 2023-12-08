@@ -1,0 +1,129 @@
+#app {
+  font-family: Montserrat, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  /* Ubah ke flex-direction: column */
+  align-items: center;
+  /* Tengahkan vertikal */
+  min-height: 100vh;
+  /* Untuk mengisi seluruh ketinggian viewport */
+  background-color: #f0f0f0;
+  /* Warna latar belakang */
+  font-family: 'Manrope', sans-serif;
+
+}
+
+.navbar {
+  background: saddlebrown;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  padding: 0 20px;
+  color: seashell;
+  width: 100%;
+  /* Buat lebarnya 100% dari viewport */
+  height: 50px;
+  position: fixed;
+  /* Tetap pada posisi atas saat di-scroll */
+  top: 2;
+  /* Letakkan di atas halaman */
+  z-index: 1;
+  /* Untuk mengatasi tumpang tindih dengan konten */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+.navbar a {
+  margin-right: 2rem;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.email-login-input {
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.password-login-input {
+  height: 20px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.login-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 800px;
+  height: 500px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  top: 15%;
+  border-radius: 20px;
+}
+
+.register-form {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  border: 1px solid #ccc;
+  width: 800px;
+  height: 700px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+  top: 15%;
+  border-radius: 20px;
+}
+
+.login-button {
+  width: 40%;
+  border-radius: 10px;
+  outline: none;
+  height: 20px;
+  border: none;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+#imgurl {
+  max-width: 150px;
+  max-height: 150px;
+}
+
+#table-lodging {
+  border-radius: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+
+.card-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 0 -10px;
+  /* Mengatasi margin ekstra karena flexbox */
+}
+
+.card {
+  width: calc(50% - 20px);
+  /* 50% untuk 2 kolom dan dikurangi jarak */
+  padding: 10px;
+  /* Menambahkan jarak antara kartu */
+  box-sizing: border-box;
+  /* Termasuk padding dalam kalkulasi lebar */
+}
+

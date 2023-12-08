@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Sapi Lada Hitam",
+        "imageUrl": "https://www.tokomesin.com/wp-content/uploads/2015/09/resep-daging-sapi-lada-hitam-tokomesin.jpg",
+        "sides": "Capcay",
+        "price": 35000
+    },
+    {
+        "name": "Ayam Krispi Taiwan",
+        "imageUrl": "https://cdns.klimg.com/dream.co.id/resized/640x320/news/2019/08/26/115741/nikmati-sentuhan-taiwan-di-fried-chicken-master-190826j.jpg",
+        "sides": "Mix Vegetables",
+        "price": 22000
+    },
+    {
+        "name": "Ayam Woku",
+        "imageUrl": "https://kulina.imgix.net/production/EYSIT3Z0BR-Ayam%20Woku.JPG",
+        "sides": "Sambal Matah",
+        "price": 25000
+    },
+    {
+        "name": "Dori Asam Manis",
+        "imageUrl": "https://kulina.imgix.net/production/C1QBK22MYQ-5.%20Tasty%20II%20-%20Nasi%20Dori%20Asam%20Manis.JPG?w480",
+        "sides": "Tahu/Tempe Goreng",
+        "price": 27000
+    },
+    {
+        "name": "Udang Saos Padang",
+        "imageUrl":"https://kulina.imgix.net/production/HCW31857SM-Nasi%20Udang%20Saus%20Padang%20PCM.JPG?w480",
+        "sides": "Cah Brokoli",
+        "price": 34000
+    },
+    {
+        "name": "Cumi Goreng Tepung",
+        "imageUrl":"https://kulina.imgix.net/production/VVDLHUQ52S-[BASIC]%20Cumi%20goreng%20tepung%20&%20capcay.JPG?w480",
+        "sides": "Capcay",
+        "price": 29000
+    }
+]

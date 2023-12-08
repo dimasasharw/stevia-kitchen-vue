@@ -1,0 +1,47 @@
+{
+  "hash": "df92ea69",
+  "browserHash": "4a125418",
+  "optimized": {
+    "vue": {
+      "src": "../../node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "8ac55554",
+      "needsInterop": false
+    },
+    "pinia": {
+      "src": "../../node_modules/pinia/dist/pinia.mjs",
+      "file": "pinia.js",
+      "fileHash": "a45c252f",
+      "needsInterop": false
+    },
+    "vue3-google-login": {
+      "src": "../../node_modules/vue3-google-login/dist/index.esm.js",
+      "file": "vue3-google-login.js",
+      "fileHash": "ad6d46c6",
+      "needsInterop": false
+    },
+    "vue-toast-notification": {
+      "src": "../../node_modules/vue-toast-notification/dist/index.js",
+      "file": "vue-toast-notification.js",
+      "fileHash": "c66b5a62",
+      "needsInterop": true
+    },
+    "vue-router": {
+      "src": "../../node_modules/vue-router/dist/vue-router.mjs",
+      "file": "vue-router.js",
+      "fileHash": "efd78b2a",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-3GOOGFKQ": {
+      "file": "chunk-3GOOGFKQ.js"
+    },
+    "chunk-5N7AURIN": {
+      "file": "chunk-5N7AURIN.js"
+    },
+    "chunk-2HLFST52": {
+      "file": "chunk-2HLFST52.js"
+    }
+  }
+}
